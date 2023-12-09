@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	int rad,pi,a;
+	
+	printf("Enter radius:");
+	scanf("%d",&rad);
+	
+	pi=3;
+	a=pi*rad*rad;
+	
+	printf("Area:%d",a);
+	
+	
+	return 0;
+}
